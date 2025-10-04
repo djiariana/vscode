@@ -1,0 +1,33 @@
+numlist = [20,45,30,77,53]
+
+largest = max(numlist)
+
+
+print("The biggest number is", largest)
+
+
+numlist = [20,45,30,77,53]
+
+largest = min(numlist)
+
+
+print("The smaller number is", largest)
+#eexo 02:
+numlist = [20, 45, 30, 77, 53]
+
+largest = numlist[0] 
+
+for num in numlist:
+    if num > largest:
+        largest = num
+print("The biggest number is", largest)
+    
+
+
+numlist = [20, 45, 30, 77, 53]
+largest = numlist[0] 
+
+for num in numlist:
+    if num < largest:
+        largest = num
+print("The smaller number is", largest)
